@@ -62,6 +62,7 @@
 		<field name="ID" uuid="D7AB1689D6B34AC1B51F977CFAF41E47" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
 		<field name="name" uuid="B187B8F833504451ABAF14C0E1A6BD08" type="10" limiting_length="255" never_null="true" id="2"/>
 		<field name="wp" uuid="DC3FF222895346C8886A5230A735D1BC" type="21" blob_switch_size="2147483647" never_null="true" id="3"/>
+		<field name="comments" uuid="5BA650E4F26044F89BA0625072A77BF8" type="21" blob_switch_size="2147483647" never_null="true" id="4"/>
 		<primary_key field_name="ID" field_uuid="D7AB1689D6B34AC1B51F977CFAF41E47"/>
 		<table_extra input_form="In" output_form="out">
 			<editor_table_info displayable_fields_count="6">

@@ -108,7 +108,7 @@
 					"left": 0,
 					"width": 880,
 					"height": 590,
-					"sizingX": "grow",
+					"sizingX": "fixed",
 					"sizingY": "grow",
 					"dataSource": "[Templates:4]wp:3",
 					"hideFocusRing": true,
@@ -123,7 +123,9 @@
 						"onGettingFocus",
 						"onSelectionChange",
 						"onAfterEdit"
-					]
+					],
+					"displayFormulaAsSymbol": true,
+					"showReferences": true
 				},
 				"WPtoolbar": {
 					"type": "subform",
@@ -131,7 +133,7 @@
 					"left": 0,
 					"width": 880,
 					"height": 90,
-					"sizingX": "grow",
+					"sizingX": "fixed",
 					"detailForm": "WP_Toolbar",
 					"focusable": false,
 					"deletableInList": false,
@@ -153,11 +155,51 @@
 					"method": "ObjectMethods/Button2.4dm",
 					"sizingY": "move",
 					"focusable": false
+				},
+				"WParea1": {
+					"type": "write",
+					"top": 87,
+					"left": 910,
+					"width": 880,
+					"height": 590,
+					"sizingX": "fixed",
+					"sizingY": "grow",
+					"dataSource": "[Templates:4]comments:4",
+					"hideFocusRing": true,
+					"scrollbarVertical": "automatic",
+					"scrollbarHorizontal": "automatic",
+					"dpi": 0,
+					"borderStyle": "none",
+					"method": "ObjectMethods/WParea1.4dm",
+					"events": [
+						"onLoad",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onSelectionChange",
+						"onAfterEdit"
+					],
+					"displayFormulaAsSymbol": true,
+					"showReferences": true
+				},
+				"WPtoolbar1": {
+					"type": "subform",
+					"top": 0,
+					"left": 910,
+					"width": 880,
+					"height": 90,
+					"sizingX": "fixed",
+					"detailForm": "WP_Toolbar",
+					"focusable": false,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable"
 				}
 			}
 		}
 	],
-	"geometryStamp": 60,
+	"geometryStamp": 68,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",

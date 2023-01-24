@@ -2,7 +2,7 @@
 	"destination": "detailScreen",
 	"windowMinWidth": 1200,
 	"windowMaxWidth": 32000,
-	"windowMinHeight": 620,
+	"windowMinHeight": 860,
 	"windowMaxHeight": 32000,
 	"width": 1200,
 	"height": 860,
@@ -60,9 +60,9 @@
 				"WParea2": {
 					"type": "write",
 					"top": 80,
-					"left": 140,
-					"width": 920,
-					"height": 720,
+					"left": 100,
+					"width": 1050,
+					"height": 730,
 					"sizingX": "grow",
 					"sizingY": "grow",
 					"dataSource": "WParea1",
@@ -310,7 +310,7 @@
 		"version": "1",
 		"kind": "form"
 	},
-	"geometryStamp": 4457,
+	"geometryStamp": 4510,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",

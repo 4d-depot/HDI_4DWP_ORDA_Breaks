@@ -254,7 +254,7 @@
 					"left": 700,
 					"width": 660,
 					"height": 650,
-					"sizingX": "fixed",
+					"sizingX": "grow",
 					"sizingY": "grow",
 					"dataSource": "[DOC:1]SampleDoc:2",
 					"hideFocusRing": true,
@@ -268,7 +268,8 @@
 						"onGettingFocus",
 						"onSelectionChange",
 						"onAfterEdit"
-					]
+					],
+					"layoutMode": "embedded"
 				},
 				"WPwidget": {
 					"type": "subform",
@@ -306,7 +307,8 @@
 						"onGettingFocus",
 						"onSelectionChange",
 						"onAfterEdit"
-					]
+					],
+					"layoutMode": "embedded"
 				},
 				"Text": {
 					"type": "text",
@@ -346,6 +348,14 @@
 						"onClick"
 					],
 					"sizingX": "fixed"
+				},
+				"Splitter1": {
+					"type": "splitter",
+					"left": 1368,
+					"top": 91,
+					"width": 1,
+					"height": 736,
+					"sizingY": "grow"
 				}
 			}
 		}
@@ -379,7 +389,7 @@
 			"View 9": {}
 		}
 	},
-	"geometryStamp": 103,
+	"geometryStamp": 106,
 	"$4d": {
 		"version": "1",
 		"kind": "form"

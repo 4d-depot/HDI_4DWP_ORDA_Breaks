@@ -21,12 +21,12 @@ Case of
 		
 		LISTBOX SELECT ROW:C912(*; "LB"; 1)
 		
-		WP SET VIEW PROPERTIES:C1648(WParea2; New object:C1471(wk formula highlight:K81:350; wk always:K81:355; wk formula highlight color:K81:351; "LightYellow"; wk visible references:K81:286; True:C214))
+		WP SET VIEW PROPERTIES:C1648(WParea2; New object:C1471(wk formula highlight:K81:350; wk never:K81:352; wk formula highlight color:K81:351; "LightYellow"; wk visible references:K81:286; True:C214))
 		
-		Form:C1466.highlight:=True:C214
+		Form:C1466.highlight:=False:C215
 		Form:C1466.trace:=False:C215
 		
-		SET TIMER:C645(-1)
+		//SET TIMER(-1)
 		
 	: (Form event code:C388=On Timer:K2:25)
 		
