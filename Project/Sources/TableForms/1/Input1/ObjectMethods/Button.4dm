@@ -1,4 +1,4 @@
-C_TEXT:C284($path)
+WP SET ATTRIBUTES:C1342([Documents:1]comments:2; wk background color:K81:20; wk transparent:K81:134)
 
-$path:=Get 4D folder:C485(Current resources folder:K5:16)+"brochure.4wp"
-[DOC:1]SampleDoc:2:=WP Import document:C1318($path)
+
+

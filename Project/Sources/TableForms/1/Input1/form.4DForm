@@ -224,16 +224,17 @@
 				},
 				"Button": {
 					"type": "button",
-					"top": 16,
-					"left": 1514,
+					"top": 100,
+					"left": 1235,
 					"width": 122,
 					"height": 17,
-					"text": "IMPORT",
+					"text": "TRansparent bgnd",
 					"focusable": false,
 					"method": "ObjectMethods/Button.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"sizingY": "fixed"
 				},
 				"Button1": {
 					"type": "button",
@@ -389,7 +390,7 @@
 			"View 9": {}
 		}
 	},
-	"geometryStamp": 106,
+	"geometryStamp": 110,
 	"$4d": {
 		"version": "1",
 		"kind": "form"

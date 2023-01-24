@@ -82,6 +82,20 @@
 		},
 		{
 			"objects": {
+				"Tab Control": {
+					"type": "tab",
+					"text": "Tab control",
+					"top": 60,
+					"left": 680,
+					"width": 500,
+					"height": 700,
+					"dataSource": "Form:C1466.tabTemplates",
+					"dataSourceTypeHint": "object",
+					"method": "ObjectMethods/Tab Control.4dm",
+					"events": [
+						"onClick"
+					]
+				},
 				"btnTrace": {
 					"type": "checkbox",
 					"text": "Trace code",
@@ -110,10 +124,10 @@
 				},
 				"WParea1": {
 					"type": "write",
-					"top": 80,
-					"left": 700,
-					"width": 456,
-					"height": 310,
+					"top": 116,
+					"left": 698,
+					"width": 460,
+					"height": 628,
 					"sizingX": "grow",
 					"sizingY": "fixed",
 					"dataSource": "WParea1",
@@ -127,19 +141,21 @@
 					"showVerticalRuler": false,
 					"layoutMode": "embedded",
 					"borderStyle": "none",
-					"events": []
+					"events": [],
+					"showBackground": true,
+					"displayFormulaAsSymbol": true
 				},
-				"WPmailing": {
+				"WPTemplate": {
 					"type": "write",
-					"top": 80,
+					"top": 70,
 					"left": 40,
-					"width": 640,
-					"height": 680,
+					"width": 620,
+					"height": 690,
 					"sizingX": "grow",
 					"sizingY": "grow",
 					"dataSource": "WParea2",
-					"enterable": true,
-					"focusable": true,
+					"enterable": false,
+					"focusable": false,
 					"hideFocusRing": true,
 					"scrollbarVertical": "automatic",
 					"scrollbarHorizontal": "automatic",
@@ -148,12 +164,13 @@
 					"showVerticalRuler": false,
 					"layoutMode": "page",
 					"borderStyle": "none",
-					"events": []
+					"events": [],
+					"displayFormulaAsSymbol": true
 				},
 				"btnHTML1": {
 					"type": "button",
 					"top": 810,
-					"left": 640,
+					"left": 540,
 					"width": 140,
 					"height": 20,
 					"sizingY": "move",
@@ -168,7 +185,7 @@
 				"btnPDF1": {
 					"type": "button",
 					"top": 780,
-					"left": 640,
+					"left": 540,
 					"width": 140,
 					"height": 20,
 					"sizingY": "move",
@@ -239,8 +256,8 @@
 				"Check Box": {
 					"type": "checkbox",
 					"text": "Highlight formulas",
-					"top": 804,
-					"left": 413,
+					"top": 807,
+					"left": 340,
 					"width": 176,
 					"height": 26,
 					"events": [
@@ -251,57 +268,6 @@
 					"sizingY": "move",
 					"sizingX": "move",
 					"focusable": false
-				},
-				"btnPDF2": {
-					"type": "button",
-					"top": 740,
-					"left": 800,
-					"width": 350,
-					"height": 20,
-					"sizingY": "move",
-					"text": "Print all companies",
-					"focusable": false,
-					"method": "ObjectMethods/btnPDF2.4dm",
-					"events": [
-						"onClick"
-					],
-					"sizingX": "move"
-				},
-				"Button": {
-					"type": "button",
-					"text": "Load template 1",
-					"top": 428,
-					"left": 750,
-					"width": 357,
-					"height": 30,
-					"events": [
-						"onClick"
-					],
-					"method": "ObjectMethods/Button.4dm"
-				},
-				"Button1": {
-					"type": "button",
-					"text": "Load template 2",
-					"top": 478,
-					"left": 750,
-					"width": 357,
-					"height": 30,
-					"events": [
-						"onClick"
-					],
-					"method": "ObjectMethods/Button1.4dm"
-				},
-				"Button2": {
-					"type": "button",
-					"text": "Load template 3",
-					"top": 528,
-					"left": 750,
-					"width": 357,
-					"height": 30,
-					"events": [
-						"onClick"
-					],
-					"method": "ObjectMethods/Button2.4dm"
 				}
 			}
 		}
@@ -310,7 +276,7 @@
 		"version": "1",
 		"kind": "form"
 	},
-	"geometryStamp": 4510,
+	"geometryStamp": 4605,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",

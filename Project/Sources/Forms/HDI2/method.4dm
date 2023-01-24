@@ -26,6 +26,24 @@ Case of
 		Form:C1466.highlight:=False:C215
 		Form:C1466.trace:=False:C215
 		
+		Form:C1466.tabTemplates:=New object:C1471
+		Form:C1466.tabTemplates.values:=New collection:C1472("Template 1"; "Template 2"; "Template 3")
+		Form:C1466.tabTemplates.index:=0
+		
+		
+		$templatename:="BreakSample_"+String:C10(Form:C1466.tabTemplates.index+1)
+		$template:=ds:C1482.Templates.query("name=:1"; $templatename).first()
+		WParea2:=$template.wp
+		WParea1:=$template.comments
+		WP SELECT:C1348(*; "WPTemplate"; 0; 0)
+		
+		$ds:=ds:C1482.People.all().orderBy("continent asc, country asc, city asc")
+		WP SET DATA CONTEXT:C1786(WParea2; $ds)
+		WP COMPUTE FORMULAS:C1707(WParea2)
+		
+		
+		
+		
 		//SET TIMER(-1)
 		
 	: (Form event code:C388=On Timer:K2:25)
@@ -39,6 +57,8 @@ Case of
 	: (Form event code:C388=On Page Change:K2:54)
 		
 		$page:=FORM Get current page:C276
-		WParea1:=Form:C1466.documents[$page-1].comments
+		If ($page=1)
+			WParea1:=Form:C1466.documents[$page-1].comments
+		End if 
 		
 End case 
