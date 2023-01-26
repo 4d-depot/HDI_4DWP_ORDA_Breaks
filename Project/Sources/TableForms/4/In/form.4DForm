@@ -90,9 +90,9 @@
 				},
 				"Button3": {
 					"type": "button",
-					"text": "Set datasource",
-					"top": 721,
-					"left": 372,
+					"text": "TEST CONTEXT",
+					"top": 795,
+					"left": 725,
 					"width": 155,
 					"height": 22,
 					"events": [
@@ -144,10 +144,10 @@
 				},
 				"Button2": {
 					"type": "button",
-					"text": "Set context",
-					"top": 722,
-					"left": 547,
-					"width": 155,
+					"text": "Set [Templates]context",
+					"top": 795,
+					"left": 407,
+					"width": 250,
 					"height": 22,
 					"events": [
 						"onClick"
@@ -239,11 +239,34 @@
 					"action": "nextRecord",
 					"sizingX": "fixed",
 					"sizingY": "move"
+				},
+				"Input1": {
+					"type": "input",
+					"left": 101,
+					"top": 764,
+					"width": 779,
+					"height": 17,
+					"dataSource": "Form:C1466.tableDataSource",
+					"sizingY": "move"
+				},
+				"Button7": {
+					"type": "button",
+					"text": "Get [Templates]context.source",
+					"top": 795,
+					"left": 101,
+					"width": 233,
+					"height": 22,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button7.4dm",
+					"sizingY": "move",
+					"focusable": false
 				}
 			}
 		}
 	],
-	"geometryStamp": 109,
+	"geometryStamp": 136,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",

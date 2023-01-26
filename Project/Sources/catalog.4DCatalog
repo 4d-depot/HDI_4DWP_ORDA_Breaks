@@ -18,19 +18,19 @@
 	</table>
 	<table name="People" uuid="956263DEA0B14B5798C10CE492CD8874" id="3">
 		<field name="ID" uuid="FF2FCA7F712E44B39AC199EA8D20EB47" type="4" unique="true" autosequence="true" not_null="true" id="1">
-			<field_extra position="1"/>
+			<field_extra position="2"/>
 		</field>
 		<field name="lastname" uuid="71FE2285E1874313A7A94BCBB5B9ED4C" type="10" limiting_length="255" never_null="true" id="2">
-			<field_extra position="4"/>
+			<field_extra position="3"/>
 		</field>
 		<field name="city" uuid="D56838945DE140E28C1BE2DFAB7A64E5" type="10" limiting_length="255" never_null="true" id="3">
-			<field_extra position="5"/>
+			<field_extra position="4"/>
 		</field>
 		<field name="phone" uuid="CFC9AC8DC102499F98E9BAA351EBA499" type="10" limiting_length="255" never_null="true" id="4">
-			<field_extra position="6"/>
+			<field_extra position="5"/>
 		</field>
 		<field name="firstname" uuid="3E7257B3EE1941948D4324D06F8C6AC4" type="10" limiting_length="255" never_null="true" id="5">
-			<field_extra position="3"/>
+			<field_extra position="6"/>
 		</field>
 		<field name="address" uuid="CC4B44F08FFF44D99C6F2E4FA9049EEA" type="10" never_null="true" id="6">
 			<field_extra position="7"/>
@@ -42,17 +42,23 @@
 			<field_extra position="9"/>
 		</field>
 		<field name="companyID" uuid="48BEA82CAE0742BDB3B55B476D97BC48" type="4" never_null="true" id="9">
-			<field_extra position="10"/>
+			<field_extra position="1"/>
 		</field>
 		<field name="title" uuid="48909E3D163C48C1AB9BF55E99359036" type="10" limiting_length="255" never_null="true" id="10">
-			<field_extra position="2"/>
+			<field_extra position="10"/>
 		</field>
-		<field name="salary" uuid="C429AD78D04D4B2CBA781E21B606BF26" type="6" never_null="true" id="11"/>
-		<field name="country" uuid="2B46799352694A8AB72094B4E5EDBDDB" type="10" limiting_length="255" never_null="true" id="12"/>
-		<field name="continent" uuid="E79929F70396438BB9EBF75424F8F568" type="10" limiting_length="255" never_null="true" id="13"/>
+		<field name="salary" uuid="C429AD78D04D4B2CBA781E21B606BF26" type="6" never_null="true" id="11">
+			<field_extra position="11"/>
+		</field>
+		<field name="country" uuid="2B46799352694A8AB72094B4E5EDBDDB" type="10" limiting_length="255" never_null="true" id="12">
+			<field_extra position="12"/>
+		</field>
+		<field name="continent" uuid="E79929F70396438BB9EBF75424F8F568" type="10" limiting_length="255" never_null="true" id="13">
+			<field_extra position="13"/>
+		</field>
 		<primary_key field_name="ID" field_uuid="FF2FCA7F712E44B39AC199EA8D20EB47"/>
 		<table_extra output_form="list">
-			<editor_table_info displayable_fields_count="13">
+			<editor_table_info fields_ordering="2" displayable_fields_count="13">
 				<color red="255" green="255" blue="255" alpha="0"/>
 				<coordinates left="431.17352294922" top="2.529434204102" width="184.45703125" height="322.31640625"/>
 			</editor_table_info>
@@ -63,6 +69,7 @@
 		<field name="name" uuid="B187B8F833504451ABAF14C0E1A6BD08" type="10" limiting_length="255" never_null="true" id="2"/>
 		<field name="wp" uuid="DC3FF222895346C8886A5230A735D1BC" type="21" blob_switch_size="2147483647" never_null="true" id="3"/>
 		<field name="comments" uuid="5BA650E4F26044F89BA0625072A77BF8" type="21" blob_switch_size="2147483647" never_null="true" id="4"/>
+		<field name="formula" uuid="E923838F86904796B9266F4FB979C663" type="21" blob_switch_size="2147483647" never_null="true" id="5"/>
 		<primary_key field_name="ID" field_uuid="D7AB1689D6B34AC1B51F977CFAF41E47"/>
 		<table_extra input_form="In" output_form="out">
 			<editor_table_info displayable_fields_count="6">
@@ -82,7 +89,7 @@
 		<table_extra output_form="Form1">
 			<editor_table_info displayable_fields_count="6">
 				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="758.80517578125" top="170.26908874512" width="120" height="167.33203125"/>
+				<coordinates left="665.21923828125" top="2.52690124512" width="120" height="167.33203125"/>
 			</editor_table_info>
 		</table_extra>
 	</table>

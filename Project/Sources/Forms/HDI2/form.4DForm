@@ -94,7 +94,9 @@
 					"method": "ObjectMethods/Tab Control.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"sizingX": "grow",
+					"sizingY": "grow"
 				},
 				"btnTrace": {
 					"type": "checkbox",
@@ -129,7 +131,7 @@
 					"width": 460,
 					"height": 628,
 					"sizingX": "grow",
-					"sizingY": "fixed",
+					"sizingY": "grow",
 					"dataSource": "WParea1",
 					"enterable": false,
 					"focusable": false,
@@ -151,7 +153,7 @@
 					"left": 40,
 					"width": 620,
 					"height": 690,
-					"sizingX": "grow",
+					"sizingX": "fixed",
 					"sizingY": "grow",
 					"dataSource": "WParea2",
 					"enterable": false,
@@ -170,7 +172,7 @@
 				"btnHTML1": {
 					"type": "button",
 					"top": 810,
-					"left": 540,
+					"left": 520,
 					"width": 140,
 					"height": 20,
 					"sizingY": "move",
@@ -180,12 +182,12 @@
 					"events": [
 						"onClick"
 					],
-					"sizingX": "move"
+					"sizingX": "fixed"
 				},
 				"btnPDF1": {
 					"type": "button",
 					"top": 780,
-					"left": 540,
+					"left": 520,
 					"width": 140,
 					"height": 20,
 					"sizingY": "move",
@@ -195,7 +197,7 @@
 					"events": [
 						"onClick"
 					],
-					"sizingX": "move"
+					"sizingX": "fixed"
 				},
 				"btnHTML": {
 					"type": "button",
@@ -209,7 +211,8 @@
 					"method": "ObjectMethods/btnHTML.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"sizingX": "fixed"
 				},
 				"btnPDF": {
 					"type": "button",
@@ -223,7 +226,8 @@
 					"method": "ObjectMethods/btnPDF.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"sizingX": "fixed"
 				},
 				"btnSVG": {
 					"type": "button",
@@ -237,7 +241,8 @@
 					"method": "ObjectMethods/btnSVG.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"sizingX": "fixed"
 				},
 				"btnDOCX": {
 					"type": "button",
@@ -251,7 +256,8 @@
 					"method": "ObjectMethods/btnDOCX.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"sizingX": "fixed"
 				},
 				"Check Box": {
 					"type": "checkbox",
@@ -266,7 +272,7 @@
 					"dataSource": "Form:C1466.highlight",
 					"method": "ObjectMethods/Check Box.4dm",
 					"sizingY": "move",
-					"sizingX": "move",
+					"sizingX": "fixed",
 					"focusable": false
 				}
 			}
@@ -276,7 +282,7 @@
 		"version": "1",
 		"kind": "form"
 	},
-	"geometryStamp": 4605,
+	"geometryStamp": 4619,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",
