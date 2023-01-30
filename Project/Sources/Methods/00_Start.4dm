@@ -22,13 +22,13 @@ Case of
 		$options:=New object:C1471
 		
 		$options.title:=""
-		$options.title:=$options.title+"use entity selections and collections to fill"+"\n"
-		$options.title:=$options.title+"tables in 4D Write Pro documents?"
+		$options.title:=$options.title+"use break rows in 4D Write Pro tables"  //+"\n"
+		//$options.title:=$options.title+"tables in  documents?"
 		
 		$options.blog:="blog.4d.com"
 		$options.info:="4D Write Pro feature"  //ex : "4D View Pro feature"
 		
-		$options.minimumVersion:="1960"  // 1950 means 19R5   1701 means 17.1 (do not use !)
+		$options.minimumVersion:="2000"  // 2000 means 20.0   2020 means 20R2, 2001 means 20.1 (do not use !)
 		
 		$options.license:=4D Write license:K44:2  // IF ANY NEEDED
 		

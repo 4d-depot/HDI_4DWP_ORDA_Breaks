@@ -69,12 +69,13 @@
 		<field name="name" uuid="B187B8F833504451ABAF14C0E1A6BD08" type="10" limiting_length="255" never_null="true" id="2"/>
 		<field name="wp" uuid="DC3FF222895346C8886A5230A735D1BC" type="21" blob_switch_size="2147483647" never_null="true" id="3"/>
 		<field name="comments" uuid="5BA650E4F26044F89BA0625072A77BF8" type="21" blob_switch_size="2147483647" never_null="true" id="4"/>
-		<field name="formula" uuid="E923838F86904796B9266F4FB979C663" type="21" blob_switch_size="2147483647" never_null="true" id="5"/>
+		<field name="number" uuid="9CEDD952D3014A5FA8675F37AB1CDB1B" type="3" never_null="true" id="6"/>
+		<field name="dataSource" uuid="061B36101F2142408746FA54187E4051" type="10" limiting_length="255" never_null="true" id="7"/>
 		<primary_key field_name="ID" field_uuid="D7AB1689D6B34AC1B51F977CFAF41E47"/>
 		<table_extra input_form="In" output_form="out">
-			<editor_table_info displayable_fields_count="6">
+			<editor_table_info displayable_fields_count="9">
 				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="221.9453125" top="0" width="120" height="167.33203125"/>
+				<coordinates left="221.9453125" top="0" width="120" height="235.81640625"/>
 			</editor_table_info>
 		</table_extra>
 	</table>
@@ -89,7 +90,7 @@
 		<table_extra output_form="Form1">
 			<editor_table_info displayable_fields_count="6">
 				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="665.21923828125" top="2.52690124512" width="120" height="167.33203125"/>
+				<coordinates left="698.47314453125" top="2.60502624512" width="120" height="167.33203125"/>
 			</editor_table_info>
 		</table_extra>
 	</table>

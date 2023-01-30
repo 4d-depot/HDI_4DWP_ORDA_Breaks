@@ -7,13 +7,11 @@ Case of
 	: (Form event code:C388=On Load:K2:1)
 		
 		Form:C1466.documents:=ds:C1482.Documents.all().orderBy("pageNumber")
+		WParea1:=Form:C1466.documents[0].comments
 		
 		Form:C1466.tabControl:=New object:C1471
 		Form:C1466.tabControl.values:=ds:C1482.Documents.all().toCollection("title").extract("title")
 		Form:C1466.tabControl.index:=0
-		
-		WParea1:=Form:C1466.documents[0].comments
-		
 		
 		LISTBOX SELECT ROW:C912(*; "LB"; 1)
 		
@@ -23,11 +21,10 @@ Case of
 		Form:C1466.trace:=False:C215
 		
 		Form:C1466.tabTemplates:=New object:C1471
-		Form:C1466.tabTemplates.values:=ds:C1482.Templates.all().orderBy("ID asc").toCollection("name").extract("name")
+		Form:C1466.tabTemplates.values:=ds:C1482.Templates.all().orderBy("number asc").toCollection("name").extract("name")
 		Form:C1466.tabTemplates.index:=0
 		Form:C1466.tabTemplates.currentValue:=Form:C1466.tabTemplates.values[0]
 		
-		UpdateTemplateSample
 		
 		//SET TIMER(-1)
 		
@@ -43,7 +40,9 @@ Case of
 		
 		$page:=FORM Get current page:C276
 		If ($page=1)
-			WParea1:=Form:C1466.documents[$page-1].comments
+			WParea1:=Form:C1466.documents[0].comments
+		Else 
+			UpdateTemplateSample
 		End if 
 		
 End case 

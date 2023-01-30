@@ -82,8 +82,8 @@
 					"type": "text",
 					"text": "Name:",
 					"top": 725,
-					"left": 0,
-					"width": 91,
+					"left": 10,
+					"width": 81,
 					"height": 16,
 					"textAlign": "right",
 					"sizingY": "move"
@@ -91,7 +91,7 @@
 				"Button3": {
 					"type": "button",
 					"text": "TEST CONTEXT",
-					"top": 795,
+					"top": 724,
 					"left": 725,
 					"width": 155,
 					"height": 22,
@@ -141,20 +141,6 @@
 					"doubleClickInEmptyAreaAction": "addSubrecord",
 					"selectionMode": "multiple",
 					"printFrame": "variable"
-				},
-				"Button2": {
-					"type": "button",
-					"text": "Set [Templates]context",
-					"top": 795,
-					"left": 407,
-					"width": 250,
-					"height": 22,
-					"events": [
-						"onClick"
-					],
-					"method": "ObjectMethods/Button2.4dm",
-					"sizingY": "move",
-					"focusable": false
 				},
 				"WParea1": {
 					"type": "write",
@@ -240,33 +226,51 @@
 					"sizingX": "fixed",
 					"sizingY": "move"
 				},
-				"Input1": {
+				"Input2": {
 					"type": "input",
-					"left": 101,
-					"top": 764,
-					"width": 779,
+					"left": 479,
+					"top": 724,
+					"width": 71,
 					"height": 17,
-					"dataSource": "Form:C1466.tableDataSource",
+					"dataSource": "[Templates:4]number:6",
+					"sizingY": "move",
+					"dataSourceTypeHint": "integer",
+					"fontWeight": "bold",
+					"stroke": "#008000"
+				},
+				"Text1": {
+					"type": "text",
+					"text": "Order:",
+					"top": 725,
+					"left": 382,
+					"width": 91,
+					"height": 16,
+					"textAlign": "right",
 					"sizingY": "move"
 				},
-				"Button7": {
-					"type": "button",
-					"text": "Get [Templates]context.source",
-					"top": 795,
+				"Input3": {
+					"type": "input",
 					"left": 101,
-					"width": 233,
-					"height": 22,
-					"events": [
-						"onClick"
-					],
-					"method": "ObjectMethods/Button7.4dm",
-					"sizingY": "move",
-					"focusable": false
+					"top": 766,
+					"width": 779,
+					"height": 17,
+					"dataSource": "[Templates:4]dataSource:7",
+					"sizingY": "move"
+				},
+				"Text2": {
+					"type": "text",
+					"text": "Table DS:",
+					"top": 765,
+					"left": 10,
+					"width": 81,
+					"height": 16,
+					"textAlign": "right",
+					"sizingY": "move"
 				}
 			}
 		}
 	],
-	"geometryStamp": 136,
+	"geometryStamp": 154,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",
