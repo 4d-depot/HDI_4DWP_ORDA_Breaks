@@ -12,8 +12,7 @@
 	"markerFooter": 240,
 	"events": [
 		"onLoad",
-		"onTimer",
-		"onPageChange"
+		"onTimer"
 	],
 	"method": "method.4dm",
 	"pageFormat": {
@@ -34,7 +33,7 @@
 					"sizingY": "grow",
 					"dataSource": "Form:C1466.tabControl",
 					"dataSourceTypeHint": "object",
-					"action": "gotoPage",
+					"action": "",
 					"events": [
 						"onClick"
 					],
