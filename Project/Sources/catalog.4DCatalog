@@ -12,55 +12,67 @@
 		<table_extra input_form="Input1" output_form="Output">
 			<editor_table_info displayable_fields_count="5">
 				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="28.52734375" top="0" width="120" height="164.3046875"/>
+				<coordinates left="28.52734375" top="0" width="123" height="146.33203125"/>
 			</editor_table_info>
 		</table_extra>
 	</table>
 	<table name="People" uuid="956263DEA0B14B5798C10CE492CD8874" id="3">
 		<field name="ID" uuid="FF2FCA7F712E44B39AC199EA8D20EB47" type="4" unique="true" autosequence="true" not_null="true" id="1">
-			<field_extra position="2"/>
-		</field>
-		<field name="lastname" uuid="71FE2285E1874313A7A94BCBB5B9ED4C" type="10" limiting_length="255" never_null="true" id="2">
-			<field_extra position="3"/>
-		</field>
-		<field name="city" uuid="D56838945DE140E28C1BE2DFAB7A64E5" type="10" limiting_length="255" never_null="true" id="3">
-			<field_extra position="4"/>
-		</field>
-		<field name="phone" uuid="CFC9AC8DC102499F98E9BAA351EBA499" type="10" limiting_length="255" never_null="true" id="4">
-			<field_extra position="5"/>
-		</field>
-		<field name="firstname" uuid="3E7257B3EE1941948D4324D06F8C6AC4" type="10" limiting_length="255" never_null="true" id="5">
-			<field_extra position="6"/>
-		</field>
-		<field name="address" uuid="CC4B44F08FFF44D99C6F2E4FA9049EEA" type="10" never_null="true" id="6">
-			<field_extra position="7"/>
-		</field>
-		<field name="zipCode" uuid="AFEE082BFDEA4D9EB0F87E498AEA4C57" type="10" limiting_length="255" never_null="true" id="7">
-			<field_extra position="8"/>
-		</field>
-		<field name="eMail" uuid="B40DF49132A84137BE3CB806FE6B8B00" type="10" limiting_length="255" never_null="true" id="8">
-			<field_extra position="9"/>
-		</field>
-		<field name="companyID" uuid="48BEA82CAE0742BDB3B55B476D97BC48" type="4" never_null="true" id="9">
 			<field_extra position="1"/>
 		</field>
-		<field name="title" uuid="48909E3D163C48C1AB9BF55E99359036" type="10" limiting_length="255" never_null="true" id="10">
+		<field name="lastname" uuid="71FE2285E1874313A7A94BCBB5B9ED4C" type="10" limiting_length="255" never_null="true" id="2">
+			<field_extra position="4"/>
+		</field>
+		<field name="city" uuid="D56838945DE140E28C1BE2DFAB7A64E5" type="10" limiting_length="255" never_null="true" id="3">
+			<field_extra position="6">
+				<editor_field_info>
+					<color red="0" green="158" blue="96" alpha="255"/>
+				</editor_field_info>
+			</field_extra>
+		</field>
+		<field name="phone" uuid="CFC9AC8DC102499F98E9BAA351EBA499" type="10" limiting_length="255" never_null="true" id="4">
 			<field_extra position="10"/>
 		</field>
-		<field name="salary" uuid="C429AD78D04D4B2CBA781E21B606BF26" type="6" never_null="true" id="11">
+		<field name="firstname" uuid="3E7257B3EE1941948D4324D06F8C6AC4" type="10" limiting_length="255" never_null="true" id="5">
+			<field_extra position="5"/>
+		</field>
+		<field name="address" uuid="CC4B44F08FFF44D99C6F2E4FA9049EEA" type="10" never_null="true" id="6">
 			<field_extra position="11"/>
 		</field>
-		<field name="country" uuid="2B46799352694A8AB72094B4E5EDBDDB" type="10" limiting_length="255" never_null="true" id="12">
+		<field name="zipCode" uuid="AFEE082BFDEA4D9EB0F87E498AEA4C57" type="10" limiting_length="255" never_null="true" id="7">
 			<field_extra position="12"/>
 		</field>
-		<field name="continent" uuid="E79929F70396438BB9EBF75424F8F568" type="10" limiting_length="255" never_null="true" id="13">
+		<field name="eMail" uuid="B40DF49132A84137BE3CB806FE6B8B00" type="10" limiting_length="255" never_null="true" id="8">
 			<field_extra position="13"/>
+		</field>
+		<field name="companyID" uuid="48BEA82CAE0742BDB3B55B476D97BC48" type="4" never_null="true" id="9">
+			<field_extra position="2"/>
+		</field>
+		<field name="title" uuid="48909E3D163C48C1AB9BF55E99359036" type="10" limiting_length="255" never_null="true" id="10">
+			<field_extra position="3"/>
+		</field>
+		<field name="salary" uuid="C429AD78D04D4B2CBA781E21B606BF26" type="6" never_null="true" id="11">
+			<field_extra position="9"/>
+		</field>
+		<field name="country" uuid="2B46799352694A8AB72094B4E5EDBDDB" type="10" limiting_length="255" never_null="true" id="12">
+			<field_extra position="7">
+				<editor_field_info>
+					<color red="0" green="158" blue="96" alpha="255"/>
+				</editor_field_info>
+			</field_extra>
+		</field>
+		<field name="continent" uuid="E79929F70396438BB9EBF75424F8F568" type="10" limiting_length="255" never_null="true" id="13">
+			<field_extra position="8">
+				<editor_field_info>
+					<color red="0" green="158" blue="96" alpha="255"/>
+				</editor_field_info>
+			</field_extra>
 		</field>
 		<primary_key field_name="ID" field_uuid="FF2FCA7F712E44B39AC199EA8D20EB47"/>
 		<table_extra output_form="list">
-			<editor_table_info fields_ordering="2" displayable_fields_count="13">
+			<editor_table_info fields_ordering="2" displayable_fields_count="9">
 				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="431.17352294922" top="2.529434204102" width="184.45703125" height="322.31640625"/>
+				<coordinates left="431.17352294922" top="2.529434204102" width="186.20361328125" height="231.55194091797"/>
 			</editor_table_info>
 		</table_extra>
 	</table>
@@ -73,9 +85,9 @@
 		<field name="dataSource" uuid="061B36101F2142408746FA54187E4051" type="10" limiting_length="255" never_null="true" id="7"/>
 		<primary_key field_name="ID" field_uuid="D7AB1689D6B34AC1B51F977CFAF41E47"/>
 		<table_extra input_form="In" output_form="out">
-			<editor_table_info displayable_fields_count="9">
+			<editor_table_info displayable_fields_count="6">
 				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="221.9453125" top="0" width="120" height="235.81640625"/>
+				<coordinates left="221.9453125" top="0" width="115" height="167.33203125"/>
 			</editor_table_info>
 		</table_extra>
 	</table>
@@ -90,7 +102,7 @@
 		<table_extra output_form="Form1">
 			<editor_table_info displayable_fields_count="6">
 				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="698.47314453125" top="2.60502624512" width="120" height="167.33203125"/>
+				<coordinates left="698.47314453125" top="2.60502624512" width="164.63934326172" height="167.41711425781"/>
 			</editor_table_info>
 		</table_extra>
 	</table>
@@ -116,9 +128,24 @@
 			<table_ref uuid="956263DEA0B14B5798C10CE492CD8874" name="People"/>
 		</field_ref>
 	</index>
+	<index kind="regular" uuid="7DA520B3CBC644AEA8F1E9C11A24AC18" type="7">
+		<field_ref uuid="E79929F70396438BB9EBF75424F8F568" name="continent">
+			<table_ref uuid="956263DEA0B14B5798C10CE492CD8874" name="People"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="A9845ED67D9948FBB1C2316A927BADAC" type="7">
+		<field_ref uuid="D56838945DE140E28C1BE2DFAB7A64E5" name="city">
+			<table_ref uuid="956263DEA0B14B5798C10CE492CD8874" name="People"/>
+		</field_ref>
+	</index>
 	<index kind="regular" unique_keys="true" uuid="AFBA5F17542F4BBC88B780F891176033" type="7">
 		<field_ref uuid="97205C53CA04456BB7F61FD8B58605C2" name="ID">
 			<table_ref uuid="CC2E277C6A8F440C85DF8FFDF0C39210" name="Company"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="B3CCF18C18FD4AB8A0BD1F77291EA088" type="7">
+		<field_ref uuid="2B46799352694A8AB72094B4E5EDBDDB" name="country">
+			<table_ref uuid="956263DEA0B14B5798C10CE492CD8874" name="People"/>
 		</field_ref>
 	</index>
 	<index kind="regular" unique_keys="true" uuid="D3C3B140466F4104BE1ED1A87047F33E" type="7">

@@ -125,10 +125,10 @@
 				},
 				"WParea1": {
 					"type": "write",
-					"top": 116,
+					"top": 106,
 					"left": 698,
 					"width": 520,
-					"height": 628,
+					"height": 638,
 					"sizingX": "grow",
 					"sizingY": "grow",
 					"dataSource": "WParea1",
@@ -273,6 +273,16 @@
 					"sizingY": "move",
 					"sizingX": "fixed",
 					"focusable": false
+				},
+				"Static Picture2": {
+					"type": "picture",
+					"top": 747,
+					"left": 660,
+					"width": 124,
+					"height": 98,
+					"picture": "/RESOURCES/Images/Arrow.png",
+					"pictureFormat": "scaled",
+					"sizingY": "move"
 				}
 			}
 		}
@@ -281,7 +291,7 @@
 		"version": "1",
 		"kind": "form"
 	},
-	"geometryStamp": 4680,
+	"geometryStamp": 4725,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",
