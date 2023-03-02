@@ -6,8 +6,6 @@ WParea2:=$template.wp
 WParea1:=$template.comments
 
 $context:=New object:C1471
-
-//$context.tableDataSource:=$template.formula.call()
 $context.tableDataSource:=Formula from string:C1601($template.dataSource).call()
 
 WP SET DATA CONTEXT:C1786(WParea2; $context)

@@ -76,7 +76,9 @@
 					"width": 251,
 					"height": 17,
 					"dataSource": "[Templates:4]name:2",
-					"sizingY": "move"
+					"sizingY": "move",
+					"fontWeight": "bold",
+					"stroke": "#0000cd"
 				},
 				"Text": {
 					"type": "text",
@@ -86,7 +88,9 @@
 					"width": 81,
 					"height": 16,
 					"textAlign": "right",
-					"sizingY": "move"
+					"sizingY": "move",
+					"fontWeight": "bold",
+					"stroke": "#0000cd"
 				},
 				"Button3": {
 					"type": "button",
@@ -251,31 +255,36 @@
 				"Input3": {
 					"type": "input",
 					"left": 101,
-					"top": 766,
+					"top": 698,
 					"width": 779,
 					"height": 17,
 					"dataSource": "[Templates:4]dataSource:7",
-					"sizingY": "move"
+					"sizingY": "move",
+					"fontWeight": "bold",
+					"stroke": "#0000cd"
 				},
 				"Text2": {
 					"type": "text",
 					"text": "Table DS:",
-					"top": 765,
+					"top": 697,
 					"left": 10,
 					"width": 81,
 					"height": 16,
 					"textAlign": "right",
-					"sizingY": "move"
+					"sizingY": "move",
+					"fontWeight": "bold",
+					"stroke": "#0000cd"
 				}
 			}
 		}
 	],
-	"geometryStamp": 154,
+	"geometryStamp": 155,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",
 		"views": {
 			"View 1": {}
 		}
-	}
+	},
+	"method": "method.4dm"
 }
