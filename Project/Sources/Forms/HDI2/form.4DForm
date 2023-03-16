@@ -190,7 +190,7 @@
 					"width": 140,
 					"height": 20,
 					"sizingY": "move",
-					"text": "Display formulas",
+					"text": "Display template",
 					"focusable": false,
 					"method": "ObjectMethods/btnPDF1.4dm",
 					"events": [
@@ -283,6 +283,17 @@
 					"picture": "/RESOURCES/Images/Arrow.png",
 					"pictureFormat": "scaled",
 					"sizingY": "move"
+				},
+				"Note": {
+					"type": "text",
+					"text": "Note: The formula will be displayed as a tip when hovering the \"S\" symbol.",
+					"top": 87,
+					"left": 60,
+					"width": 575,
+					"height": 16,
+					"stroke": "#1e90ff",
+					"fontWeight": "bold",
+					"sizingY": "move"
 				}
 			}
 		}
@@ -291,7 +302,7 @@
 		"version": "1",
 		"kind": "form"
 	},
-	"geometryStamp": 4725,
+	"geometryStamp": 4772,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",
