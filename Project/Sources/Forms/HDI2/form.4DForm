@@ -286,14 +286,14 @@
 				},
 				"Note": {
 					"type": "text",
-					"text": "Note: The formula will be displayed as a tip when hovering the \"S\" symbol.",
+					"text": "Note: The formula will be displayed as a tip when hovering over the \"S\" symbol.",
 					"top": 87,
 					"left": 60,
 					"width": 575,
 					"height": 16,
 					"stroke": "#1e90ff",
 					"fontWeight": "bold",
-					"sizingY": "move"
+					"sizingY": "fixed"
 				}
 			}
 		}
@@ -302,7 +302,7 @@
 		"version": "1",
 		"kind": "form"
 	},
-	"geometryStamp": 4772,
+	"geometryStamp": 4773,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",
